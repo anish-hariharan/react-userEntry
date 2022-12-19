@@ -1,0 +1,81 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 60vw;
+}
+
+.mainCont{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    padding: 2px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    margin: 20px;
+} 
+
+.input {
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 0px solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.input:focus{
+    outline: none;
+}
+
+.label{
+    display: flex;
+    width: 10%;
+    align-items: center;
+}
+
+.label-input{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.card {
+    margin-top: 25px;
+    border: 4px solid black;
+    border-radius: 25px;
+    background-color:#EAEFF2 ;
+}
+
+.inputinvalid{
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 2px solid crimson;
+    outline: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.lableFont{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+}
